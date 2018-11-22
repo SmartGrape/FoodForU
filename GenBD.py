@@ -46,22 +46,3 @@ conn.commit()
 cur.close()
 conn.close()
 print('completed')
-
-
-
-
-
-
-	#name
-	#uint time (1,120)
-	#uint kcal (1,10000)
-	#kitchen -  индекс 20
-	#meal - индекс 3
-	#typeDish - индекс *(гарнир/основное/выпечка/напиток..) 4
-	#parameter - индекс *(жарянное/жирное/острое..) 5
-	#eqip - индекс 4
-	#components - отсортированный массив индексов ингредиентов 0
-	#грамовки
-	#bool exotic 2
-	#цена - индекс 3
-	#сложность - индекс 4
