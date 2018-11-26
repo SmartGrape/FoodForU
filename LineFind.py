@@ -114,3 +114,6 @@ for i in range(10):
 
 	base = cur.fetchall()
 	for j in base: print(j)
+
+cur.close()
+conn.close()
