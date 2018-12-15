@@ -36,8 +36,8 @@ class client {
 			String mess = createMess();
 			out.writeUTF(mess);
 			out.flush();
-			mess= in.readUTF();
-			System.out.println("You say "+mess+ " to server");	
+			mess= in.readLine();
+			System.out.println("Server told '"+mess+ "' to you");	
 
 		} catch (Exception e) {
 			e.printStackTrace();
